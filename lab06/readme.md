@@ -1,4 +1,4 @@
-# Lab07 Google Unit Test
+# Lab06 Google Unit Test
 #### Due date: Wednesday, October 25th at 11:55 p.m.
 #### Remember to sign in today.
 ***
@@ -10,21 +10,21 @@
 
 ## Preparing for the Lab
 1.  Pull from the public-class-repo repository.
-2.  Copy the public-class-repo/labs/lab07 to your own local repository. 
+2.  Copy the public-class-repo/labs/lab06 to your own local repository. 
 
 ## Materials:
-In the lab07/src folder, we have
+In the lab06/src folder, we have
 1. **QuackBehavior.h**, including class *QuackBehavior*, class *Quack*, class *Mute*, class *Squeak*, class *Honk*;
 2. **FlyBehavior.h**, including class *FlyBehavior*, class *FlyWithWings*, class *NoFly*, class *FlyWithRocket*;  
 3. **Duck.h**, including class *Duck*, class *Mallard*, class *RubberDuck*.
 
-In the lab07/tests folder, we have three unit test files.  They are Duck_Test_Example.cc, FlyBehavior_Test_Example.cc, and QuackBehavior_Test_Example.cc
+In the lab06/tests folder, we have three unit test files.  They are Duck_Test_Example.cc, FlyBehavior_Test_Example.cc, and QuackBehavior_Test_Example.cc
 
 ## Google Test Introduction:
 Google C++ Testing Framework helps you write better C++ tests. No matter whether you work on Linux, Windows, or a Mac, if you write C++ code, Google Test can help you. For more information please refer to the following link:
 https://github.com/google/googletest/blob/master/googletest/docs/Primer.md.
 
-For this lab, we have set up the environment on the **CSELab** computers, so you can run the tests directly on **CSELab** computers.  We are using the same Google Framework as the project.  You may see some source files in the lab07/src that are from the project.  We do not use these but you could if you wanted to try and write a test for this code.
+For this lab, we have set up the environment on the **CSELab** computers, so you can run the tests directly on **CSELab** computers.  We are using the same Google Framework as the project.  You may see some source files in the lab06/src that are from the project.  We do not use these but you could if you wanted to try and write a test for this code.
 
 
 ## Statements:
@@ -74,9 +74,9 @@ TEST(QuackTest, Constructor) {
 In this unit test, we test the *Quack* class and be more specific, we test its *constructor*.
 
 ## How to run Google Unit Test:
-1.  You should be in the lab07 directory.
+1.  You should be in the lab06 directory.
 2.  Run *make*
-3.  Change the directory to the /build/bin under the lab07 directory
+3.  Change the directory to the /build/bin under the lab06 directory
 4.  Run the unittests file
 
 
@@ -90,14 +90,14 @@ Now, you are ready to write your own tests！  Write the following unit tests fo
 
 4. Write unit test for class *RubberDuck*, it should test its constructor and display function;
 
-5.  Update the Makefile as needed in the /tests directory and run make from the /lab07 directory.
+5.  Update the Makefile as needed in the /tests directory and run make from the /lab06 directory.
 
-6.  Run the unittests file in the /lab07/build/bin directory to ensure everything passes the tests.  If something fails, you will need to fix the code.
+6.  Run the unittests file in the /lab06/build/bin directory to ensure everything passes the tests.  If something fails, you will need to fix the code.
 
 7.  Push your changes to GitHub.  This should push up all new test .cc files and the Makefile changes.
 ```
 git add .
-git commit -m “Submitting Lab07”
+git commit -m “Submitting Lab06”
 git push
 ```
 
