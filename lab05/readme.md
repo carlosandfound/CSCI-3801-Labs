@@ -1,4 +1,4 @@
-# Lab Session 6: gdb Backtraces
+# Lab Session 5: gdb Backtraces
 #### Due date: Sunday, October 15th at 10:00 p.m.
 
 <hr>
@@ -13,7 +13,7 @@ Please follow the setup instructions below.
 1. Log into a computer in the lab.
 2. Open a terminal window.
 3. Navigate to your 3081 class repo.
-4. _pull_ to get lab06 base code
+4. _pull_ to get lab05 base code
 5. Copy the directory into your labs directory in your individual class repo.
 6. Push changes to your student repo.
 
@@ -130,7 +130,7 @@ There are several causes of "segentation faults" in this program. Use _gdb_ to h
     ... Goodbye ...
     ````
 
-#### Turning in Lab 6
+#### Turning in Lab 5
 8. Push changes up to your student repo.
 
 #### Assessment
